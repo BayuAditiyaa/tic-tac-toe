@@ -179,12 +179,12 @@ ol {
 }
 
 #game-board button {
-  width: 8rem;
-  height: 8rem;
+  width: 4rem;
+  height: 4rem;
   border: none;
   background: #38ebff;
   color: #eeeab9;
-  font-size: 5rem;
+  font-size: 2rem;
   cursor: pointer;
   font-family: 'Caprasimo', cursive;
   padding: 1rem;
@@ -348,4 +348,9 @@ ol {
   100% {
     transform: scale(1);
   }
+}
+
+@media only screen and (max-width: 527) {
+
+
 }
